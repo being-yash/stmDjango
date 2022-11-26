@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home Students Databse</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'stm/css/bootstrap.css' %}">
+</head>
+<body>
+	<div class="container mt-5">
+		<div class="text-center alert alert-info"> <h1>Students Database</h1></div>
+		{% block content %} {% endblock content %}
+	</div>
+<script type="text/javascript" src="{% static 'stm/js/jquery.js' %}"></script>
+<script type="text/javascript" src="{% static 'stm/js/bootstrap.js' %}"></script>
+<script type="text/javascript" src="{% static 'stm/js/popper.js' %}"></script>
+</body>
+</html>
